@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- URL Types for Google Sign-In -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <!-- Add your reverse client ID here -->
+                <string>com.googleusercontent.apps.421938192017-ndn9uvae6h7l1012dl1mbt2acmsc1m9j</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- Required for Google Sign-In -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>google</string>
+        <string>googlechrome</string>
+    </array>
+    
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to display the current weather.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We need your location to display the current weather.</string>
+    <key>NSLocationUsageDescription</key>
+    <string>We need your location to display the current weather.</string>
+
+</dict>
+</plist>

@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF598EA92CFAB1C900C4594B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EA82CFAB1C900C4594B /* FirebaseAnalytics */; };
+		CF598EAB2CFAB1C900C4594B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EAA2CFAB1C900C4594B /* FirebaseAuth */; };
+		CF598EAD2CFAB1C900C4594B /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EAC2CFAB1C900C4594B /* FirebaseAuthCombine-Community */; };
+		CF598EAF2CFAB1C900C4594B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EAE2CFAB1C900C4594B /* FirebaseDatabase */; };
+		CF598EB12CFAB1C900C4594B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EB02CFAB1C900C4594B /* FirebaseFirestore */; };
+		CF598EB32CFAB1C900C4594B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EB22CFAB1C900C4594B /* FirebaseStorage */; };
+		CF598EB52CFAB1C900C4594B /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EB42CFAB1C900C4594B /* FirebaseStorageCombine-Community */; };
+		CF598EBD2CFAB77600C4594B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EBC2CFAB77600C4594B /* GoogleSignIn */; };
+		CF598EBF2CFAB77600C4594B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF598EBE2CFAB77600C4594B /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF9711B62CD33D0700DC6D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF97119D2CD33D0400DC6D05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9711A42CD33D0400DC6D05;
+			remoteInfo = TrackMyDay;
+		};
+		CF9711C02CD33D0700DC6D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF97119D2CD33D0400DC6D05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9711A42CD33D0400DC6D05;
+			remoteInfo = TrackMyDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF9711A52CD33D0400DC6D05 /* TrackMyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9711B52CD33D0700DC6D05 /* TrackMyDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9711BF2CD33D0700DC6D05 /* TrackMyDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CF598EC42CFABBBB00C4594B /* Exceptions for "TrackMyDay" folder in "TrackMyDay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CF9711A42CD33D0400DC6D05 /* TrackMyDay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CF9711A72CD33D0400DC6D05 /* TrackMyDay */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CF598EC42CFABBBB00C4594B /* Exceptions for "TrackMyDay" folder in "TrackMyDay" target */,
+			);
+			path = TrackMyDay;
+			sourceTree = "<group>";
+		};
+		CF9711B82CD33D0700DC6D05 /* TrackMyDayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrackMyDayTests;
+			sourceTree = "<group>";
+		};
+		CF9711C22CD33D0700DC6D05 /* TrackMyDayUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrackMyDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9711A22CD33D0400DC6D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF598EBF2CFAB77600C4594B /* GoogleSignInSwift in Frameworks */,
+				CF598EA92CFAB1C900C4594B /* FirebaseAnalytics in Frameworks */,
+				CF598EBD2CFAB77600C4594B /* GoogleSignIn in Frameworks */,
+				CF598EB52CFAB1C900C4594B /* FirebaseStorageCombine-Community in Frameworks */,
+				CF598EAD2CFAB1C900C4594B /* FirebaseAuthCombine-Community in Frameworks */,
+				CF598EAF2CFAB1C900C4594B /* FirebaseDatabase in Frameworks */,
+				CF598EB12CFAB1C900C4594B /* FirebaseFirestore in Frameworks */,
+				CF598EAB2CFAB1C900C4594B /* FirebaseAuth in Frameworks */,
+				CF598EB32CFAB1C900C4594B /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9711B22CD33D0700DC6D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9711BC2CD33D0700DC6D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF97119C2CD33D0400DC6D05 = {
+			isa = PBXGroup;
+			children = (
+				CF9711A72CD33D0400DC6D05 /* TrackMyDay */,
+				CF9711B82CD33D0700DC6D05 /* TrackMyDayTests */,
+				CF9711C22CD33D0700DC6D05 /* TrackMyDayUITests */,
+				CF9711A62CD33D0400DC6D05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9711A62CD33D0400DC6D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9711A52CD33D0400DC6D05 /* TrackMyDay.app */,
+				CF9711B52CD33D0700DC6D05 /* TrackMyDayTests.xctest */,
+				CF9711BF2CD33D0700DC6D05 /* TrackMyDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9711A42CD33D0400DC6D05 /* TrackMyDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9711C92CD33D0700DC6D05 /* Build configuration list for PBXNativeTarget "TrackMyDay" */;
+			buildPhases = (
+				CF9711A12CD33D0400DC6D05 /* Sources */,
+				CF9711A22CD33D0400DC6D05 /* Frameworks */,
+				CF9711A32CD33D0400DC6D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CF9711A72CD33D0400DC6D05 /* TrackMyDay */,
+			);
+			name = TrackMyDay;
+			packageProductDependencies = (
+				CF598EA82CFAB1C900C4594B /* FirebaseAnalytics */,
+				CF598EAA2CFAB1C900C4594B /* FirebaseAuth */,
+				CF598EAC2CFAB1C900C4594B /* FirebaseAuthCombine-Community */,
+				CF598EAE2CFAB1C900C4594B /* FirebaseDatabase */,
+				CF598EB02CFAB1C900C4594B /* FirebaseFirestore */,
+				CF598EB22CFAB1C900C4594B /* FirebaseStorage */,
+				CF598EB42CFAB1C900C4594B /* FirebaseStorageCombine-Community */,
+				CF598EBC2CFAB77600C4594B /* GoogleSignIn */,
+				CF598EBE2CFAB77600C4594B /* GoogleSignInSwift */,
+			);
+			productName = TrackMyDay;
+			productReference = CF9711A52CD33D0400DC6D05 /* TrackMyDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF9711B42CD33D0700DC6D05 /* TrackMyDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9711CC2CD33D0700DC6D05 /* Build configuration list for PBXNativeTarget "TrackMyDayTests" */;
+			buildPhases = (
+				CF9711B12CD33D0700DC6D05 /* Sources */,
+				CF9711B22CD33D0700DC6D05 /* Frameworks */,
+				CF9711B32CD33D0700DC6D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9711B72CD33D0700DC6D05 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CF9711B82CD33D0700DC6D05 /* TrackMyDayTests */,
+			);
+			name = TrackMyDayTests;
+			packageProductDependencies = (
+			);
+			productName = TrackMyDayTests;
+			productReference = CF9711B52CD33D0700DC6D05 /* TrackMyDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF9711BE2CD33D0700DC6D05 /* TrackMyDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9711CF2CD33D0700DC6D05 /* Build configuration list for PBXNativeTarget "TrackMyDayUITests" */;
+			buildPhases = (
+				CF9711BB2CD33D0700DC6D05 /* Sources */,
+				CF9711BC2CD33D0700DC6D05 /* Frameworks */,
+				CF9711BD2CD33D0700DC6D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9711C12CD33D0700DC6D05 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CF9711C22CD33D0700DC6D05 /* TrackMyDayUITests */,
+			);
+			name = TrackMyDayUITests;
+			packageProductDependencies = (
+			);
+			productName = TrackMyDayUITests;
+			productReference = CF9711BF2CD33D0700DC6D05 /* TrackMyDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF97119D2CD33D0400DC6D05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CF9711A42CD33D0400DC6D05 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CF9711B42CD33D0700DC6D05 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CF9711A42CD33D0400DC6D05;
+					};
+					CF9711BE2CD33D0700DC6D05 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CF9711A42CD33D0400DC6D05;
+					};
+				};
+			};
+			buildConfigurationList = CF9711A02CD33D0400DC6D05 /* Build configuration list for PBXProject "TrackMyDay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF97119C2CD33D0400DC6D05;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CF598EBB2CFAB77600C4594B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CF9711A62CD33D0400DC6D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9711A42CD33D0400DC6D05 /* TrackMyDay */,
+				CF9711B42CD33D0700DC6D05 /* TrackMyDayTests */,
+				CF9711BE2CD33D0700DC6D05 /* TrackMyDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9711A32CD33D0400DC6D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9711B32CD33D0700DC6D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9711BD2CD33D0700DC6D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9711A12CD33D0400DC6D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9711B12CD33D0700DC6D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9711BB2CD33D0700DC6D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF9711B72CD33D0700DC6D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9711A42CD33D0400DC6D05 /* TrackMyDay */;
+			targetProxy = CF9711B62CD33D0700DC6D05 /* PBXContainerItemProxy */;
+		};
+		CF9711C12CD33D0700DC6D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9711A42CD33D0400DC6D05 /* TrackMyDay */;
+			targetProxy = CF9711C02CD33D0700DC6D05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF9711C72CD33D0700DC6D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF9711C82CD33D0700DC6D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9711CA2CD33D0700DC6D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackMyDay/Preview Content\"";
+				DEVELOPMENT_TEAM = RA6LD97G24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackMyDay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.TrackMyDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF9711CB2CD33D0700DC6D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackMyDay/Preview Content\"";
+				DEVELOPMENT_TEAM = RA6LD97G24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackMyDay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.TrackMyDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF9711CD2CD33D0700DC6D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA6LD97G24;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.TrackMyDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackMyDay";
+			};
+			name = Debug;
+		};
+		CF9711CE2CD33D0700DC6D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA6LD97G24;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.TrackMyDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackMyDay";
+			};
+			name = Release;
+		};
+		CF9711D02CD33D0700DC6D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA6LD97G24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.TrackMyDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackMyDay;
+			};
+			name = Debug;
+		};
+		CF9711D12CD33D0700DC6D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA6LD97G24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.TrackMyDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackMyDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9711A02CD33D0400DC6D05 /* Build configuration list for PBXProject "TrackMyDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9711C72CD33D0700DC6D05 /* Debug */,
+				CF9711C82CD33D0700DC6D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9711C92CD33D0700DC6D05 /* Build configuration list for PBXNativeTarget "TrackMyDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9711CA2CD33D0700DC6D05 /* Debug */,
+				CF9711CB2CD33D0700DC6D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9711CC2CD33D0700DC6D05 /* Build configuration list for PBXNativeTarget "TrackMyDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9711CD2CD33D0700DC6D05 /* Debug */,
+				CF9711CE2CD33D0700DC6D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9711CF2CD33D0700DC6D05 /* Build configuration list for PBXNativeTarget "TrackMyDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9711D02CD33D0700DC6D05 /* Debug */,
+				CF9711D12CD33D0700DC6D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		CF598EBB2CFAB77600C4594B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF598EA82CFAB1C900C4594B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CF598EAA2CFAB1C900C4594B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CF598EAC2CFAB1C900C4594B /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		CF598EAE2CFAB1C900C4594B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CF598EB02CFAB1C900C4594B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CF598EB22CFAB1C900C4594B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		CF598EB42CFAB1C900C4594B /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EA72CFAB1C900C4594B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		CF598EBC2CFAB77600C4594B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EBB2CFAB77600C4594B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		CF598EBE2CFAB77600C4594B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF598EBB2CFAB77600C4594B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CF97119D2CD33D0400DC6D05 /* Project object */;
+}
