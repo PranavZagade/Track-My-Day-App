@@ -19,7 +19,7 @@
 ## Screenshots
 
 ### Login Screen
-![Login Screen](path-to-your-image/login-screen.png)
+![Login Screen](Screenshots/login.png)
 
 ### Task List Screen
 ![Task List Screen](path-to-your-image/task-list-screen.png)
