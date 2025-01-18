@@ -22,7 +22,8 @@
 ![Login Screen](Screenshots/login.png)
 
 ### Task List Screen
-![Task List Screen](path-to-your-image/task-list-screen.png)
+![Task List Screen](Screenshots/task.png)
+![Task List Screen](Screenshots/task2.png)
 
 ### Add Task Screen
 ![Add Task Screen](path-to-your-image/add-task-screen.png)
