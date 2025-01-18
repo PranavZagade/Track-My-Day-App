@@ -21,15 +21,18 @@
 ### Login Screen
 ![Login Screen](Screenshots/login.png)
 
+### Sign Up Screen
+![Sign Up Screen](Screenshots/signup.png)
+
 ### Task List Screen
 ![Task List Screen](Screenshots/task.png)
 ![Task List Screen](Screenshots/task2.png)
 
 ### Add Task Screen
-![Add Task Screen](path-to-your-image/add-task-screen.png)
+![Add Task Screen](Screenshots/addtask.png)
 
 ### Task Details Screen
-![Task Details Screen](path-to-your-image/task-details-screen.png)
+![Task Details Screen](Screenshots/detailtask.png)
 ---
 
 ## Installation
